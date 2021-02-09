@@ -16,7 +16,7 @@ Java服务端开发，一点点服务器运维经验。
 
 之前建过个人博客，后来因为服务器到期停了。现在先使用lemonChann的模板搭建个人博客，将闲暇记录的笔记搬移过来。
 
-![最爱小龙女啊~](https://github.com/OJumpyo/OJumpyo.github.io/blob/master/images/test.jpg)
+![最爱小龙女啊~](https://github.com/OJumpyo/OJumpyo.github.io/raw/master/images/test.jpg)
 
 
 
