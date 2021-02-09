@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2021-02-09 15:31:52
- * @LastEditTime: 2021-02-09 16:25:58
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: \OJumpyo.github.io\about.md
--->
 ---
 layout: page
 title: About
