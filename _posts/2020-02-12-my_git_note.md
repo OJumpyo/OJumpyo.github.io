@@ -38,7 +38,8 @@ author: OJumpyo
 ### 2、版本回退  
 `git log`  
 查看提交记录效果如下：  
-~~~git  
+
+~~~yml  
 commit 470de19af407052f989e8b7cf8dc186b17a8de21 (HEAD -> master)
 Author: jumpyo <1074678434@qq.com>
 Date:   Wed Feb 12 10:19:03 2020 +0800
@@ -63,9 +64,11 @@ Date:   Tue Feb 11 21:30:39 2020 +0800
 
     I have written a sentence as the first trial
 ~~~
+
 `git log --pretty=oneline`  
 使输出为一行  
-~~~git  
+
+~~~html  
 $ git log --pretty=oneline
 470de19af407052f989e8b7cf8dc186b17a8de21 (HEAD -> master) git tracks change of files.
 40cc151b65e5467028728885c47337981dd02304 repeat some sentences to learn git log and git reset
@@ -73,14 +76,15 @@ fb333b27112a637d8e66e285e6f0359d3a055ba4 add some sentences to learn more comman
 d3c196882f4e02501f3bca6e72cfed785c4f6e38 I have written a sentence as the first trial
 dcd5572ce922cf6118e69074724ee9c786fbf804 I have written a lerarngit.txt file
 ~~~
+
 ==`git reset --hard head^`==  
 一个^号代表回退到最近的版本，两个就两个，很多个可以写成  
 ==`git reset --hard head~100`==  
 也可以使用==`git reset --hard fb333`回退到某个特定的版本，后面的参数来自前面这一长串commitid
 
-要重返未来，用==git reflog -n==查看命令历史，以便确定要回到未来的哪个版本  
+要重返未来，用==`git reflog -n`==查看命令历史，以便确定要回到未来的哪个版本  
 
-git存在==工作区、暂存区==。git add只是添加到暂存区，commit以后才添加到分支。  
+git存在==`工作区、暂存区`==。git add只是添加到暂存区，commit以后才添加到分支。  
 
 git是管理==修改==的，不是管理文件的  
 
@@ -139,7 +143,7 @@ Git鼓励大量使用分支：
 修复bug时，我们会通过创建新的bug分支进行修复，然后合并，最后删除；
 
 当手头工作没有完成时，先把工作现场 ==`git stash`== 一下，==待补==  
-==常用git stash命令：==
+==`常用git stash命令：`==
 
 （1）==`git stash save "save message"`==  : 执行存储时，添加备注，方便查找，只有git stash 也是可以的，但查找时不方便识别。
 
@@ -157,7 +161,7 @@ Git鼓励大量使用分支：
 
 （8）==`git stash clear`== ：删除所有缓存的stash  
 
-==接上== 然后去修复bug，修复后，再 ==`git stash pop`==，回到工作现场；
+==`接上`== 然后去修复bug，修复后，再 ==`git stash pop`==，回到工作现场；
 
 在master分支上修复的bug，想要合并到当前dev分支，可以用 ==`git cherry-pick <commit>`== 命令，把bug提交的修改“复制”到当前分支，避免重复劳动。  
 
@@ -172,7 +176,7 @@ Git鼓励大量使用分支：
 4. 没有冲突或者解决掉冲突后，再用<font color='red'> git push origin <branch-name> </font>推送就能成功！
 5. 如果`git pull`提示<font color='red'> no tracking information </font>，则说明本地分支和远程分支的链接关系没有创建，用命令<font color='red'> git branch --set-upstream-to <branch-name> origin/<branch-name> </font>。 
 
-==注：其实一般最好是先建自己的分支，再对比无误之后合并到master==  
+==`注：其实一般最好是先建自己的分支，再对比无误之后合并到master`==  
 step1，在本地新建分支 git branch newbranch
 
 step2：把本地分支push到远程 git push origin newbranch
@@ -245,7 +249,5 @@ deploy_key_rsa
 
 用的最多的强制拉取远程库覆盖本地仓库  
 ==`git fetch --all`==  
-==`git reset --hard origin/master
-`==  
-==` git pull origin master
-`==  
+==`git reset --hard origin/master`==  
+==` git pull origin master`==  
