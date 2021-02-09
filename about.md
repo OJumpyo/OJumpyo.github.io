@@ -1,26 +1,34 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-02-09 15:31:52
+ * @LastEditTime: 2021-02-09 16:25:58
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \OJumpyo.github.io\about.md
+-->
 ---
 layout: page
 title: About
 permalink: /about/
 ---
 
-Hi，我是 lemon.
+OJumpyo，目前在BUPT就读，a junior Graduate Student。
 
 ### 技能
 
-Linux后端分布式高性能服务开发，差一点精通 C++，Golang 成长中，Python小玩具。
+Java服务端开发，一点点服务器运维经验。
 
 ### 经历
 
-软件工程师(Software Engineer)，电子信息工程学士学位( Electronic and Information Engineering )，从事服务器软件后台开发工作多年，现就职腾讯（Tencent）公司。
+本意成为通信工程师(Telecommunication Engineer)，却阴差阳错走上码农之路。目前尚未毕业。
 
-个人技术公众号「后端技术学堂」分享、记录、成长，欢迎扫码添加。
+之前建过个人博客，后来因为服务器到期停了。现在先使用lemonChann的模板搭建个人博客，将闲暇记录的笔记搬移过来。
 
-![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![最爱小龙女啊~](https://github.com/OJumpyo/OJumpyo.github.io/blob/master/images/test.jpg)
 
 
 
 ### 版权声明
 
-博客文章是我原创文章，存档于_posts 文件夹下，版权归我所有，转载请与我联系获得授权许可。
+geek是lemonChann原创文章，存档于_posts 文件夹下，版权归其所有，转载请与他联系获得授权许可。
 
