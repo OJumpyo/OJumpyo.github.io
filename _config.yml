@@ -64,8 +64,10 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 071cfdf555523fa3bd1d
-  clientSecret: 9ea452c58fb4ab05aa8300abc7acd91b380f0463
+  # clientID: 071cfdf555523fa3bd1d
+  clientID: e79fd91ec1eea7b543b2
+  # clientSecret: 9ea452c58fb4ab05aa8300abc7acd91b380f0463
+  clientSecret: 87e32b240ae2494ccefb6c392245173b6b840370
   repo: OJumpyo.github.io
   owner: OJumpyo
 
@@ -74,7 +76,7 @@ google_analytics: UA-189317022-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://OJumpyo.github.io
+url: https://OJumpyo.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

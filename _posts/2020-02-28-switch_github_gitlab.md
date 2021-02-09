@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "git笔记-from阮一峰"
+title: "gitlab和github切换"
 date:  2020-02-28
 tags: [git]
 comments: true

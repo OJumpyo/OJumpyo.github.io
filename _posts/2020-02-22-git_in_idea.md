@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "git笔记-from阮一峰"
+title: "使用idea多人协作开发"
 date:  2020-02-22
 tags: [git]
 comments: true
