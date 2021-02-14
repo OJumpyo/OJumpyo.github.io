@@ -1,8 +1,8 @@
----
+--- 
 layout: post
-title: "快速开平方根的几种方法"
-date:  2020-02-14
-tags: [math]
+title: "使用idea多人协作开发"
+date:  2020-02-22
+tags: [git]
 comments: true
 author: OJumpyo
 ---
