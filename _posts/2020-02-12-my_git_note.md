@@ -7,7 +7,7 @@ comments: true
 author: OJumpyo
 ---
 
-#写在开头
+# 写在开头
 
 主要还是看的廖雪峰学长的git教程，参考链接在  
 <https://www.liaoxuefeng.com/wiki/896043488029600>  
