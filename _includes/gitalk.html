@@ -7,7 +7,8 @@
           clientSecret: "{{ site.gitalk.clientSecret }}",
           repo: "{{ site.gitalk.repo }}",
           owner: "{{ site.gitalk.owner }}",
-          proxy: "{{ site.gitalk.proxy }}",
+          // proxy: "{{ site.gitalk.proxy }}",
+          proxy: "{{https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token}}",
           admin: ["{{ site.gitalk.owner }}"],
           id: window.location.pathname,      // Ensure uniqueness and length less than 50
           distractionFreeMode: false,  // Facebook-like distraction free mode
