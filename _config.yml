@@ -64,12 +64,14 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  # clientID: 071cfdf555523fa3bd1d
-  clientID: e79fd91ec1eea7b543b2
-  # clientSecret: 9ea452c58fb4ab05aa8300abc7acd91b380f0463
-  clientSecret: 87e32b240ae2494ccefb6c392245173b6b840370
+  clientID: 071cfdf555523fa3bd1d
+  # clientID: e79fd91ec1eea7b543b2
+  clientSecret: 9ea452c58fb4ab05aa8300abc7acd91b380f0463
+  # clientSecret: 87e32b240ae2494ccefb6c392245173b6b840370
   repo: OJumpyo.github.io
   owner: OJumpyo
+  proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
+
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-189317022-1
