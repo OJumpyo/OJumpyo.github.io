@@ -68,7 +68,7 @@ gitalk:
   clientSecret: 9ea452c58fb4ab05aa8300abc7acd91b380f0463
   repo: OJumpyo.github.io
   owner: OJumpyo
-  proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
+  # proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
