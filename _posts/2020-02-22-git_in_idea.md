@@ -4,8 +4,10 @@ title: "使用idea多人协作开发"
 date:  2020-02-22
 tags: [git]
 comments: true
+toc: true
 author: OJumpyo
 ---
+
 ## 使用idea多人协作开发 
 1. 首先从git上拉取matser分支代码到本地。 
 2. 然后在本地新建分支在idea右下角有个==git XXX== 点击此然后可以看到有个+号new branch  
